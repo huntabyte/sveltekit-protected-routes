@@ -1,3 +1,4 @@
+import { redirect } from "@sveltejs/kit"
 import type { Actions, PageServerLoad } from "./$types"
 
 export const load: PageServerLoad = async () => {}
@@ -12,8 +13,6 @@ export const actions: Actions = {
 			maxAge: 60 * 60 * 24 * 7, // 1 week
 		})
 
-		return {
-			success: true,
-		}
+		throw redirect(303, "/")
 	},
 }
