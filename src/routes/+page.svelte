@@ -5,6 +5,6 @@
 		<form action="?/login" method="POST">
 			<button type="submit" class="btn btn-primary">Login</button>
 		</form>
-		<a href="/admin" class="btn btn-secondary">Admin Panel</a>
+		<a href="/protected" class="btn btn-secondary">Protected</a>
 	</div>
 </main>

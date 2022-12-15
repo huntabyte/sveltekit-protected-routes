@@ -52,7 +52,7 @@ main {
 	color: $dark-300;
 	border: none;
 	border-radius: 5px;
-	padding: 10px 20px;
+	padding: 8px 16px;
 	font-size: 16px;
 	cursor: pointer;
 	transition: all 0.2s ease-in-out;
@@ -84,7 +84,7 @@ input {
 	background-color: $dark-100;
 	border: $gray 2px solid;
 	border-radius: 5px;
-	padding: 10px 20px;
+	padding: 8px 16px;
 	color: #ffffff;
 	font-size: 16px;
 	margin-bottom: 20px;
@@ -106,5 +106,26 @@ input {
 		text-align: left;
 		padding-bottom: 2px;
 		font-size: 16px;
+	}
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	gap: 1rem;
+	border-bottom: 1px solid $gray;
+
+	& .btn {
+		padding: 5px 10px;
+		font-size: 12px;
+		background-color: inherit;
+		border: 2px solid white;
+		color: white;
+
+		&:hover {
+			background-color: $dark-100;
+		}
 	}
 }
