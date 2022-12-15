@@ -4,7 +4,7 @@
 
 <div class="navbar">
 	<a href="/" class="btn">Home</a>
-	<a href="/protected" class="btn">Protected</a>
+	<a href="/admin" class="btn">Admin</a>
 	<form action="/logout" method="POST">
 		<button class="btn btn-primary">Logout</button>
 	</form>
