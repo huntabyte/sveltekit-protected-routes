@@ -6,7 +6,7 @@
 
 <main>
 	<h1>Don't use +layouts for auth</h1>
-	<p>Let's learn about why.</p>
+	<p>Let's learn why.</p>
 	{#if data.user}
 		Logged in as: {data.user.email}
 	{:else}
